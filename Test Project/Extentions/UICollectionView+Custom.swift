@@ -1,11 +1,3 @@
-//
-//  UICollection+Custom.swift
-//  SpyTalk
-//
-//  Created by Vadim Zhydenko on 3/19/18.
-//  Copyright © 2018 Vadim Zhydenko. All rights reserved.
-//
-
 import UIKit
 
 extension UICollectionView {

@@ -20,13 +20,6 @@
 		9893190320D7A583008C8381 /* ExhibitResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9893190220D7A583008C8381 /* ExhibitResponse.swift */; };
 		9893190920D7BCBD008C8381 /* ExhibitCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9893190720D7BCBC008C8381 /* ExhibitCell.swift */; };
 		9893190A20D7BCBD008C8381 /* ExhibitCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9893190820D7BCBD008C8381 /* ExhibitCell.xib */; };
-		9893191420D7BE7B008C8381 /* UITableView+UIRefreshControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9893190C20D7BE7B008C8381 /* UITableView+UIRefreshControl.swift */; };
-		9893191520D7BE7B008C8381 /* UITableView+DeleteInsertOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9893190D20D7BE7B008C8381 /* UITableView+DeleteInsertOptions.swift */; };
-		9893191620D7BE7B008C8381 /* UITableView+DeleteOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9893190E20D7BE7B008C8381 /* UITableView+DeleteOptions.swift */; };
-		9893191720D7BE7B008C8381 /* UITableView+MoveOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9893190F20D7BE7B008C8381 /* UITableView+MoveOptions.swift */; };
-		9893191820D7BE7B008C8381 /* UITableView+VisibleLastCells.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9893191020D7BE7B008C8381 /* UITableView+VisibleLastCells.swift */; };
-		9893191920D7BE7B008C8381 /* UITableView+ScrollOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9893191120D7BE7B008C8381 /* UITableView+ScrollOptions.swift */; };
-		9893191A20D7BE7B008C8381 /* UITableView+InsertOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9893191220D7BE7B008C8381 /* UITableView+InsertOptions.swift */; };
 		9893191B20D7BE7B008C8381 /* UITableView+Custom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9893191320D7BE7B008C8381 /* UITableView+Custom.swift */; };
 		9893191F20D7C758008C8381 /* ImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9893191D20D7C758008C8381 /* ImageCell.swift */; };
 		9893192020D7C758008C8381 /* ImageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9893191E20D7C758008C8381 /* ImageCell.xib */; };
@@ -50,13 +43,6 @@
 		9893190220D7A583008C8381 /* ExhibitResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExhibitResponse.swift; sourceTree = "<group>"; };
 		9893190720D7BCBC008C8381 /* ExhibitCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExhibitCell.swift; sourceTree = "<group>"; };
 		9893190820D7BCBD008C8381 /* ExhibitCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ExhibitCell.xib; sourceTree = "<group>"; };
-		9893190C20D7BE7B008C8381 /* UITableView+UIRefreshControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableView+UIRefreshControl.swift"; sourceTree = "<group>"; };
-		9893190D20D7BE7B008C8381 /* UITableView+DeleteInsertOptions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableView+DeleteInsertOptions.swift"; sourceTree = "<group>"; };
-		9893190E20D7BE7B008C8381 /* UITableView+DeleteOptions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableView+DeleteOptions.swift"; sourceTree = "<group>"; };
-		9893190F20D7BE7B008C8381 /* UITableView+MoveOptions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableView+MoveOptions.swift"; sourceTree = "<group>"; };
-		9893191020D7BE7B008C8381 /* UITableView+VisibleLastCells.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableView+VisibleLastCells.swift"; sourceTree = "<group>"; };
-		9893191120D7BE7B008C8381 /* UITableView+ScrollOptions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableView+ScrollOptions.swift"; sourceTree = "<group>"; };
-		9893191220D7BE7B008C8381 /* UITableView+InsertOptions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableView+InsertOptions.swift"; sourceTree = "<group>"; };
 		9893191320D7BE7B008C8381 /* UITableView+Custom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableView+Custom.swift"; sourceTree = "<group>"; };
 		9893191D20D7C758008C8381 /* ImageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCell.swift; sourceTree = "<group>"; };
 		9893191E20D7C758008C8381 /* ImageCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ImageCell.xib; sourceTree = "<group>"; };
@@ -151,7 +137,7 @@
 			children = (
 				9808015F20D7CA0200A3D6D0 /* UICollectionView+Custom.swift */,
 				9808016120D7CABA00A3D6D0 /* String+Url.swift */,
-				9893190B20D7BE7B008C8381 /* UITableView */,
+				9893191320D7BE7B008C8381 /* UITableView+Custom.swift */,
 			);
 			path = Extentions;
 			sourceTree = "<group>";
@@ -173,21 +159,6 @@
 				9893191E20D7C758008C8381 /* ImageCell.xib */,
 			);
 			path = Cells;
-			sourceTree = "<group>";
-		};
-		9893190B20D7BE7B008C8381 /* UITableView */ = {
-			isa = PBXGroup;
-			children = (
-				9893190C20D7BE7B008C8381 /* UITableView+UIRefreshControl.swift */,
-				9893190D20D7BE7B008C8381 /* UITableView+DeleteInsertOptions.swift */,
-				9893190E20D7BE7B008C8381 /* UITableView+DeleteOptions.swift */,
-				9893190F20D7BE7B008C8381 /* UITableView+MoveOptions.swift */,
-				9893191020D7BE7B008C8381 /* UITableView+VisibleLastCells.swift */,
-				9893191120D7BE7B008C8381 /* UITableView+ScrollOptions.swift */,
-				9893191220D7BE7B008C8381 /* UITableView+InsertOptions.swift */,
-				9893191320D7BE7B008C8381 /* UITableView+Custom.swift */,
-			);
-			path = UITableView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -307,18 +278,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				9808016220D7CABA00A3D6D0 /* String+Url.swift in Sources */,
-				9893191520D7BE7B008C8381 /* UITableView+DeleteInsertOptions.swift in Sources */,
-				9893191720D7BE7B008C8381 /* UITableView+MoveOptions.swift in Sources */,
-				9893191620D7BE7B008C8381 /* UITableView+DeleteOptions.swift in Sources */,
-				9893191920D7BE7B008C8381 /* UITableView+ScrollOptions.swift in Sources */,
 				9893191B20D7BE7B008C8381 /* UITableView+Custom.swift in Sources */,
 				989318FD20D79E84008C8381 /* IExhibitsLoader.swift in Sources */,
 				989318E820D79835008C8381 /* ViewController.swift in Sources */,
 				989318F920D79B73008C8381 /* Exhibit.swift in Sources */,
-				9893191820D7BE7B008C8381 /* UITableView+VisibleLastCells.swift in Sources */,
-				9893191420D7BE7B008C8381 /* UITableView+UIRefreshControl.swift in Sources */,
 				9808016020D7CA0200A3D6D0 /* UICollectionView+Custom.swift in Sources */,
-				9893191A20D7BE7B008C8381 /* UITableView+InsertOptions.swift in Sources */,
 				989318E620D79835008C8381 /* AppDelegate.swift in Sources */,
 				9893190920D7BCBD008C8381 /* ExhibitCell.swift in Sources */,
 				9893191F20D7C758008C8381 /* ImageCell.swift in Sources */,
